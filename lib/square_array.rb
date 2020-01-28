@@ -1,4 +1,5 @@
 def square_array(array)
- arr = []
-array.push { |i|  i ** i }
+  [].tap do |a|
+    array.each do { |n| a << n * n }
+  end
 end
