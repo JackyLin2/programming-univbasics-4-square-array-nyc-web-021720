@@ -1,5 +1,5 @@
 def square_array(array)
-  [].tap do |i|
-    array.each do { |i| a << n * n }
+  [].tap do |a|
+    array.each do { |n| a << n * n }
   end
 end
