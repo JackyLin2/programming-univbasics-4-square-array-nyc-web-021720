@@ -1,6 +1,4 @@
 def square_array(array)
- array.each do |integer|
-  new_array = [integer ** 2, integer **2, integer **2]
-  return new_array
- end
-end
+ new_array[]
+ counter = 0 
+while new_array < counter 
