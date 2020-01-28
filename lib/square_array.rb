@@ -1,3 +1,4 @@
 def square_array(array)
-  # your code here
+  arr = [1,2,3]
+  array.push { |i| arr << i ** 2 }
 end
